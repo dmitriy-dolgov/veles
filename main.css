@@ -2,4 +2,23 @@ body, html {
     background-color: #1e1e1e;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAASElEQVRIie3SsQkAMAhE0dt/pnMNM07SCS6gBH5hY/MRn8K+J7PNxE4b0bB7ePJ6bUQrvPFngQtc4AIXuMAFLnCBC1zg+hfXAy8UHuWeFxKhAAAAAElFTkSuQmCC);
     background-repeat: repeat;
+
+    height: 100%;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 80%;
+    background-color: #29292a;
+}
+
+.main-video {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.main-video video {
+    width: 100%;
 }
