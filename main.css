@@ -4,21 +4,35 @@ body, html {
     background-repeat: repeat;
 
     height: 100%;
+
+    color: #aaa9a9;
 }
 
 #wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 20px;
     width: 80%;
     background-color: #29292a;
+    min-height: 100%;
 }
 
 .main-video {
-    margin: 20px auto;
+    margin: 0 auto;
     width: 80%;
 }
 
 .main-video video {
-    width: 100%;
+    width: 1%;
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+#footer {
+    background-color: #282a2b;
+    border-color: #4B4C4D;
+    border-top-width: 1px;
+    padding-top: 18px;
+    padding-bottom: 16px;
 }
