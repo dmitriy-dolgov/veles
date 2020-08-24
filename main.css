@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 body, html {
     background-color: #1e1e1e;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAASElEQVRIie3SsQkAMAhE0dt/pnMNM07SCS6gBH5hY/MRn8K+J7PNxE4b0bB7ePJ6bUQrvPFngQtc4AIXuMAFLnCBC1zg+hfXAy8UHuWeFxKhAAAAAElFTkSuQmCC);
@@ -5,7 +7,10 @@ body, html {
 
     height: 100%;
 
-    color: #aaa9a9;
+    color: #8C8989 !important;
+    /*font-size: 13px !important;*/
+    font: 13px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    /*font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;*/
 }
 
 #wrapper {
@@ -35,4 +40,14 @@ body, html {
     border-top-width: 1px;
     padding-top: 18px;
     padding-bottom: 16px;
+    font-size: 12px;
+}
+
+#wrapper a {
+    color: #BFBFBF;
+}
+
+#wrapper a:hover {
+    text-decoration: none;
+    color: #a0ce4e;
 }
