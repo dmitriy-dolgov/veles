@@ -10,7 +10,7 @@
                 <a class="nav-link" href="#">Домой <span class="sr-only">Домой</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">О нас</a>
+                <a class="nav-link" href="about.php">О нас</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>
