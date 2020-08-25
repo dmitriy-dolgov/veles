@@ -283,6 +283,37 @@ h1 {
     margin-bottom: 5px;
 }
 
+
+.join-info {
+    font-size: 13px;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.tb-capt {
+    text-align: left;
+    vertical-align: center;
+    padding: 5px 0;
+}
+
+.tb-price {
+    text-align: center;
+    vertical-align: center;
+    color: yellow;
+    padding: 3px 0;
+}
+
+.tb-order {
+    text-align: center;
+    vertical-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.join-info.right .tb-capt {
+    text-align: right;
+}
+
 @media screen and (max-width: 767px) {
     .main-video {
         width: 100%;

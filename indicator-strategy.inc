@@ -4,6 +4,7 @@
         Стратегия работы индикатора
     </div>
     <div class="candy"></div>
+
     <img class="indicator-strategy-img" alt="Стратегия работы индикатора" src="strategy.png">
 
     <div class="container-wrap">
