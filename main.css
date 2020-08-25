@@ -14,7 +14,7 @@ body, html {
 
     color: #8C8989 !important;
     /*font-size: 13px !important;*/
-    font: 13px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    /*font: 13px/20px 'PT Sans', Arial, Helvetica, sans-serif;*/
     /*font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;*/
 }
 
@@ -30,6 +30,7 @@ body, html {
     max-width: 1100px;
     margin: 0 auto;
     /*width: 80%;*/
+    font: 13px/20px 'PT Sans', Arial, Helvetica, sans-serif;
 }
 
 .main-video {
@@ -39,10 +40,6 @@ body, html {
 
 .main-video video {
     width: 100%;
-}
-
-.content {
-    padding: 40px 20px 40px;
 }
 
 .footer {
@@ -91,6 +88,13 @@ a:hover {
     color: #a0ce4e !important;
 }
 
+h1 {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
 #wrapper .navbar-brand {
     font-size: 26px;
     font-weight: bold;
@@ -126,6 +130,16 @@ a:hover {
     padding-top: 25px;
     padding-left: 30px !important;
     padding-right: 30px !important;
+}
+
+.content {
+    padding: 40px 20px 40px;
+    font-family: 'Antic Slab', serif;
+    font-size: 14px;
+}
+
+.section {
+    margin-bottom: 60px;
 }
 
 @media screen and (max-width: 767px) {

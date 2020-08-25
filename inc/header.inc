@@ -7,19 +7,19 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/">Домой <span class="sr-only">Домой</span></a>
+                <a class="nav-link" href="#main-video">Домой</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.php">О нас</a>
+                <a class="nav-link" href="#about">О нас</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="indicator.php">Индикатор</a>
+                <a class="nav-link" href="#indicator">Индикатор</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="indicator-strategy.php">Стратегия</a>
+                <a class="nav-link" href="#indicator-strategy">Стратегия</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="join-us.php">Присоединяйтесь к нам</a>
+                <a class="nav-link" href="#join-us">Присоединяйтесь</a>
             </li>
 
         </ul>
