@@ -95,6 +95,27 @@ h1 {
     margin: 20px;
 }
 
+.navbar {
+    padding: 0 1rem;
+}
+
+#navbarText {
+    height: 70px;
+}
+
+#navbarText .navbar-nav .nav-link {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#navbarText .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
 #wrapper .navbar-brand {
     font-size: 26px;
     font-weight: bold;
@@ -106,10 +127,12 @@ h1 {
     color: white !important;
     font-family: 'Antic Slab', serif;
     font-size: 14px;
+    border: 4px #343a40 solid;
 }
 
 .navbar.navbar-dark .navbar-nav .nav-item > .nav-link:hover {
     color: #a0ce4e !important;
+    border-top-color: #a0ce4e;
 }
 
 .about .ab-rect {
