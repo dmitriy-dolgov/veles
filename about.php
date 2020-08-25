@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>VELES</title>
+    <title>VELES - о нас</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="main.css">
 
@@ -34,18 +34,8 @@
     </nav>
 
     <main class="content">
-        <div class="main-video">
-            <video controls>
-                <source src="Индикатор-ВЕЛЕС.mp4" type="video/mp4">
-                <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-                <source src="Индикатор-ВЕЛЕС.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-                <source src="Индикатор-ВЕЛЕС.ogv" type="video/ogg">
-                <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
-                <!--<object data="video.swf" type="application/x-shockwave-flash">&lt;!&ndash; добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video &ndash;&gt;
-                    <param name="movie" value="video.swf">
-                </object>-->
-            </video>
-        </div>
+        «VELES индикатор для торговли бинарными опционами построенный только на тех методах, которые проверены временем и используются каждым трейдером»
+        <br>
     </main>
 </div>
 <footer class="footer">
