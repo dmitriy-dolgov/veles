@@ -5,7 +5,11 @@ body, html {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAASElEQVRIie3SsQkAMAhE0dt/pnMNM07SCS6gBH5hY/MRn8K+J7PNxE4b0bB7ePJ6bUQrvPFngQtc4AIXuMAFLnCBC1zg+hfXAy8UHuWeFxKhAAAAAElFTkSuQmCC);
     background-repeat: repeat;
 
-    height: 100%;
+    /*height: 100%;*/
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
     color: #8C8989 !important;
     /*font-size: 13px !important;*/
@@ -15,7 +19,8 @@ body, html {
 
 #wrapper {
     background-color: #2d2d2d;
-    min-height: 100%;
+    /*min-height: 100%;*/
+    flex: 1;
 }
 
 #wrapper,
@@ -35,7 +40,7 @@ body, html {
 }
 
 .content {
-    padding: 40px 20px 90px;
+    padding: 40px 20px 40px;
 }
 
 .footer {
@@ -47,30 +52,54 @@ body, html {
     bottom: 0;
     width: 100%;*/
 
-    position: relative;
+    /*position: relative;
     margin-top: -50px;
-    height: 50px;
+    height: 50px;*/
+    margin-top: auto;
     clear: both;
+    width: 100%;
     /*padding-top:20px;*/
 }
 
 .footer .copy {
     text-align: left;
     padding-top: 13px;
-    padding-left: 28px;
+    padding-bottom: 13px;
+    /*padding-left: 28px;*/
 }
 
 .footer .all-rights {
     text-align: right;
     padding-top: 13px;
-    padding-right: 28px;
+    padding-bottom: 13px;
+    /*padding-right: 28px;*/
 }
 
-#wrapper a {
-    color: #BFBFBF;
+.footer .container {
+    margin: 0 !important;
+    max-width: none;
 }
 
-#wrapper a:hover {
-    text-decoration: none;
-    color: #a0ce4e;
+a {
+    color: #BFBFBF !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #a0ce4e !important;
+}
+
+@media screen and (max-width: 767px) {
+    .footer .copy,
+    .footer .all-rights {
+        text-align: center;
+    }
+
+    .footer .copy {
+        padding-bottom: 5px;
+    }
+
+    .footer .all-rights {
+        padding-top: 0;
+    }
 }
