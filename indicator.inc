@@ -37,8 +37,17 @@
                         <div class="progress-caption">Скользящие средние и другие динамические уровни</div>
                     </div>
                 </div>
-                <div class="col-md-6">
 
+                <div class="col-md-6">
+                    <div class="pan-caption">
+                        Сигналы индикатора соответствуют всем требованиям
+                    </div>
+                    <div class="pan-item">Не перерисовывается</div>
+                    <div class="pan-item">Сигналы подаются заранее</div>
+                    <div class="pan-item">Работает на любом МТ4</div>
+                    <div class="pan-item">Упор сделан на точность и надежность</div>
+                    <div class="pan-item">Работает в любую торговую сессию</div>
+                    <div class="pan-item">Работает на любых таймфреймах</div>
                 </div>
             </div>
         </div>
