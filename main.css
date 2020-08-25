@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
 body, html {
     background-color: #1e1e1e;
@@ -36,7 +37,7 @@ body, html {
 }
 
 .main-video video {
-    width: 1%;
+    width: 100%;
 }
 
 .content {
@@ -89,7 +90,28 @@ a:hover {
     color: #a0ce4e !important;
 }
 
+#wrapper .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+    color: white !important;
+    text-shadow: 1px 1px black;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item > .nav-link {
+    color: white !important;
+    font-family: 'Antic Slab', serif;
+    font-size: 14px;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item > .nav-link:hover {
+    color: #a0ce4e !important;
+}
+
 @media screen and (max-width: 767px) {
+    .main-video {
+        width: 100%;
+    }
+
     .footer .copy,
     .footer .all-rights {
         text-align: center;
