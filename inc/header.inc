@@ -21,7 +21,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="#join-us">Присоединяйтесь</a>
             </li>
-
         </ul>
     </div>
 </nav>

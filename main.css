@@ -121,19 +121,26 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 15px;
 }
 
 .r-heading {
-    height: 150px;
     background-color: #a0ce4e;
-    padding-bottom: 0px;
+    /*padding-bottom: 0px;
     padding-top: 25px;
     padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-right: 30px !important;*/
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 30px;
 }
 
 .content {
-    padding: 40px 20px 40px;
+    padding: 40px 0;
     font-family: 'Antic Slab', serif;
     font-size: 14px;
 }
@@ -141,6 +148,105 @@ h1 {
 .section {
     margin-bottom: 60px;
 }
+
+.candy {
+    border-color: transparent;
+    border-top-color: #a0ce4e;
+    border-width: 29px 29px 0 29px;
+    border-style: solid;
+    margin: 0 auto;
+    width: 50px;
+}
+
+.container-wrap {
+    padding: 0 15px;
+}
+
+.pan-caption {
+    padding: 28px 28px 27px 31px;
+    background-color: #3e3e3e;
+    border-width: 1px;
+    border-color: #3e3e3e;
+    border-top-width: 3px;
+    border-top-color: #a0ce4e;
+    border-style: solid;
+    margin-bottom: 9px;
+}
+
+.pan-indicator {
+    position: relative;
+    background-color: #3e3e3e;
+    width: 100%;
+    color: white;
+    margin-bottom: 9px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    padding: 10px 20px;
+}
+
+.progress-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+    background-color: rgb(160, 206, 78);
+    border: 0 solid rgb(160, 206, 78);
+
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 40px 40px;
+
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite
+}
+
+.perc-1 {
+    width: 95%;
+}
+.perc-2 {
+    width: 91%;
+}
+.perc-3 {
+    width: 88%;
+}
+.perc-4 {
+    width: 83%;
+}
+.perc-5 {
+    width: 80%;
+}
+.perc-6 {
+    width: 79%;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+.progress-caption {
+    position: relative;
+    z-index: 1;
+}
+
+.color-1 {
+    color: #a0ce4e;
+}
+
 
 @media screen and (max-width: 767px) {
     .main-video {
