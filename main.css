@@ -334,6 +334,13 @@ h1 {
 
     color: white;
     font-size: 18px;
+
+    width: 100%;
+}
+
+.join-info td {
+    border: solid 1px white;
+    padding: 10px 20px;
 }
 
 .tb-capt {
@@ -363,6 +370,7 @@ h1 {
     padding: 15px;
     display: block;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .order-btn.disabled {
