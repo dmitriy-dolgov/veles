@@ -181,7 +181,8 @@ h1 {
 }
 
 .section {
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
+    padding-bottom: 60px;
 }
 
 .section.about h1 {
@@ -223,6 +224,10 @@ h1 {
     align-items: center;
     justify-content: center;*/
     padding: 10px 20px;
+}
+
+.pan-indicator {
+    text-shadow: 1px 1px 2px black, 0 0 1em green;
 }
 
 .pan-item {
@@ -273,6 +278,16 @@ h1 {
     width: 80%;
     margin: 10px auto 50px;
     display: block;
+}
+
+.indicator {
+    background-image: url('bbp.png');
+    background-size: contain;
+}
+
+.indicator-strategy {
+    background-image: url('wall.jpg');
+    background-size: contain;
 }
 
 .l-icon {
