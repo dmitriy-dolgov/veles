@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fonts/icomoon.css">
+    <link rel="stylesheet" href="main.css?v=0.2">
+
 </head>
 <body>
 <div id="wrapper">

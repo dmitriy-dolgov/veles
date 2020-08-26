@@ -141,10 +141,18 @@ h1 {
     background-color: #3e3e3e;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 15px;
+    font-size: 18px;
+}
+
+.about .ab-rect .icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #a0ce4e;
 }
 
 .r-heading {
@@ -170,6 +178,10 @@ h1 {
 
 .section {
     margin-bottom: 60px;
+}
+
+.section.about h1 {
+    margin-bottom: 40px;
 }
 
 .candy {
@@ -308,9 +320,11 @@ h1 {
 
 
 .join-info {
-    font-size: 13px;
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     margin: 0 auto;
+
+    color: white;
+    font-size: 18px;
 }
 
 .tb-capt {
@@ -323,7 +337,7 @@ h1 {
     text-align: center;
     vertical-align: center;
     color: yellow;
-    padding: 3px 0;
+    padding: 15px 0;
 }
 
 .tb-order {

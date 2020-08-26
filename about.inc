@@ -8,21 +8,25 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="ab-rect">
+                        <span class="icon icon-cog"></span>
                         Простая установка и настройка
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="ab-rect">
+                        <span class="icon icon-point-right"></span>
                         Используйте любого брокера и котировки
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="ab-rect">
+                        <span class="icon icon-stats-dots"></span>
                         Проверенные результаты на протяжении двух лет
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="ab-rect">
+                        <span class="icon icon-office"></span>
                         Высокий гарантированный ITM
                     </div>
                 </div>
