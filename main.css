@@ -195,6 +195,7 @@ h1 {
     border-style: solid;
     margin: 0 auto;
     width: 50px;
+    margin-bottom: 10px;
 }
 
 .container-wrap {
@@ -405,6 +406,20 @@ h1 {
 
 .join-info.right .tb-capt {
     text-align: right;
+}
+
+.faq .pan-item {
+    font-style: italic;
+}
+
+.faq .pan-item .question {
+    font-style: normal;
+    color: red;
+}
+
+.faq .pan-item .reply {
+    font-style: normal;
+    color: #a0ce4e;
 }
 
 @media screen and (max-width: 767px) {

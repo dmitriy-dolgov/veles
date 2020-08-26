@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 copy">Copyright © 2019 - 2020 <a href="/">VELES</a></div>
-            <div class="col-md-6 all-rights">All rights reserved. Binary Options, Trading Signals, and Software.</div>
+            <div class="col-md-6 all-rights">поддержка <a href="mailto:mail@fxveles.ru">mail@fxveles.ru</a></div>
         </div>
     </div>
 </footer>

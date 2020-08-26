@@ -9,7 +9,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="fonts/icomoon.css">
-    <link rel="stylesheet" href="main.css?v=0.4">
+    <link rel="stylesheet" href="main.css?v=0.5">
 
 </head>
 <body>
@@ -27,6 +27,8 @@
         <?php include('indicator-strategy.inc') ?>
 
         <?php include('join-us.inc') ?>
+
+        <?php include('faq.inc') ?>
 
     </main>
 </div>
