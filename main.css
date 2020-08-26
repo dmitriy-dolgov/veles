@@ -408,6 +408,8 @@ h1 {
     text-align: right;
 }
 
+/*
+Разворачивание всех вопросов
 .faq .pan-item {
     font-style: italic;
 }
@@ -438,6 +440,25 @@ h1 {
 .faq .r-heading .icon {
     color: #242424;
     margin-left: 20px;
+}*/
+
+.faq .icon {
+    margin-right: 20px;
+
+    background-color: gray;
+    padding: 5px;
+    width: 24px;
+    display: inline-block;
+    height: 24px;
+}
+
+.faq .pan-item .reply {
+    font-style: normal;
+    color: #a0ce4e;
+    /*display: inline-block;*/
+    margin-left: 43px;
+    margin-top: 6px;
+    display: none;
 }
 
 @media screen and (max-width: 767px) {
