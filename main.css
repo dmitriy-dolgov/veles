@@ -451,6 +451,9 @@ h1 {
     display: inline-block;
     height: 24px;
 }
+.faq .pan-item a {
+    color: white !important;
+}
 
 .faq .pan-item .reply {
     font-style: normal;
@@ -458,7 +461,17 @@ h1 {
     /*display: inline-block;*/
     margin-left: 43px;
     margin-top: 6px;
-    display: none;
+
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .4s;
+    transition: max-height .4s;
+}
+
+.faq .pan-item .reply.unwrap {
+    max-height: 50px;
+    -webkit-transition: max-height .4s;
+    transition: max-height .4s;
 }
 
 @media screen and (max-width: 767px) {

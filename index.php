@@ -34,5 +34,21 @@
 </div>
 
 <?php include('inc/footer.inc') ?>
+<script>
+    $('.unwrap-faq-elem').click(function () {
+        var elem = $(this);
+        var iconElem = elem.find('.icon');
+        if (iconElem.hasClass('icon-plus')) {
+            iconElem.removeClass('icon-plus');
+            iconElem.addClass('icon-minus');
+        } else {
+            iconElem.removeClass('icon-minus');
+            iconElem.addClass('icon-plus');
+        }
+        elem.parent().find('.reply').toggleClass('unwrap');
+
+        return false;
+    });
+</script>
 </body>
 </html>
