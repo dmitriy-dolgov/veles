@@ -181,7 +181,6 @@ h1 {
 }
 
 .section {
-    /*margin-bottom: 60px;*/
     padding-bottom: 60px;
 }
 
@@ -281,14 +280,15 @@ h1 {
 }
 
 .indicator {
-    background-image: url('bbp.png');
-    background-size: contain;
+    background-image: url('black-pattern-squares-wallpaper-12.jpeg');
+    /*background-size: contain;*/
+
 }
 
-.indicator-strategy {
-    background-image: url('wall.jpg');
+/*.indicator-strategy {
+    background-image: url('Grey-wallpaper-for-desktop.jpg');
     background-size: contain;
-}
+}*/
 
 .l-icon {
     color: #a0ce4e;
@@ -380,7 +380,8 @@ h1 {
 }
 
 .order-btn {
-    background-color: black;
+    background-color: #a0ce4e;
+    color: black !important;
     width: 100%;
     padding: 15px;
     display: block;
@@ -392,8 +393,14 @@ h1 {
     color: #3e3e3e;
 }
 
+.order-btn:hover {
+    color: white !important;
+}
+
+
 .order-btn.disabled:hover {
-    color: #3e3e3e;
+    /*color: #3e3e3e;*/
+    color: white !important;
 }
 
 .join-info.right .tb-capt {

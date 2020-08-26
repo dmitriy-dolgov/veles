@@ -6,7 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <!--<li class="nav-item active">
                 <a class="nav-link" href="#main-video">Домой</a>
             </li>
             <li class="nav-item">
@@ -20,6 +20,18 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#join-us">Присоединяйтесь</a>
+            </li>-->
+            <li class="nav-item active">
+                <a class="nav-link" href="#main-video">Интро</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#indicator">Технологии</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#indicator-strategy">Стратегия</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#join-us">Заказать</a>
             </li>
         </ul>
     </div>
