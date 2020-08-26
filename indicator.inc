@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="pan-caption">
+                    <div class="pan-caption second">
                         Сигналы индикатора соответствуют всем требованиям
                     </div>
                     <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Не перерисовывается</div>

@@ -13,25 +13,25 @@
                 <div class="col-md-3">
                     <div class="s-info">
                         <div class="perc">80%</div>
-                        винрейт
+                        <div class="descr">винрейт</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="s-info">
                         <div class="perc">100+</div>
-                        активов для торговли
+                        <div class="descr">активов для торговли</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="s-info">
                         <div class="perc">+14%</div>
-                        к депозиту ежедневно
+                        <div class="descr">к депозиту ежедневно</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="s-info">
                         <div class="perc">50+</div>
-                        точный сигналов еженедельно
+                        <div class="descr">точных сигналов еженедельно</div>
                     </div>
                 </div>
             </div>

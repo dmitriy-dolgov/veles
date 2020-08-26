@@ -336,6 +336,10 @@ h1 {
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 }
 
+.s-info .descr {
+    text-align: center;
+}
+
 .perc {
     color: #a0ce4e;
     font-size: 50px;
@@ -451,6 +455,7 @@ h1 {
     display: inline-block;
     height: 24px;
 }
+
 .faq .pan-item a {
     color: white !important;
 }
@@ -474,6 +479,7 @@ h1 {
     transition: max-height .4s;
 }
 
+
 @media screen and (max-width: 767px) {
     .main-video {
         width: 100%;
@@ -490,5 +496,37 @@ h1 {
 
     .footer .all-rights {
         padding-top: 0;
+    }
+
+    .about .ab-rect {
+        margin-bottom: 20px;
+    }
+
+    .pan-caption.second {
+        margin-top: 20px;
+    }
+
+    .s-info {
+        margin-bottom: 20px;
+    }
+
+    .join-info.right {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* NAVBAR */
+    .navbar {
+        padding: .5rem 1rem;
+    }
+
+    #navbarText {
+        height: auto;
+    }
+
+    #navbarText .navbar-nav .nav-link {
+        height: auto; /* 44px */
+        display: block;
     }
 }
