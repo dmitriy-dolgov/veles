@@ -42,12 +42,12 @@
                     <div class="pan-caption">
                         Сигналы индикатора соответствуют всем требованиям
                     </div>
-                    <div class="pan-item">Не перерисовывается</div>
-                    <div class="pan-item">Сигналы подаются заранее</div>
-                    <div class="pan-item">Работает на любом МТ4</div>
-                    <div class="pan-item">Упор сделан на точность и надежность</div>
-                    <div class="pan-item">Работает в любую торговую сессию</div>
-                    <div class="pan-item">Работает на любых таймфреймах</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Не перерисовывается</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Сигналы подаются заранее</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Работает на любом МТ4</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Упор сделан на точность и надежность</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Работает в любую торговую сессию</div>
+                    <div class="pan-item"><span class="icon icon-checkmark2 l-icon"></span>Работает на любых таймфреймах</div>
                 </div>
             </div>
         </div>

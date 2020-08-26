@@ -177,7 +177,7 @@ h1 {
 .content {
     padding: 40px 0;
     font-family: 'Antic Slab', serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .section {
@@ -226,7 +226,7 @@ h1 {
 }
 
 .pan-item {
-    text-align: right;
+    text-align: left;
 }
 
 .progress-bar {
@@ -273,6 +273,11 @@ h1 {
     width: 80%;
     margin: 10px auto 50px;
     display: block;
+}
+
+.l-icon {
+    color: #a0ce4e;
+    margin-right: 15px;
 }
 
 @-webkit-keyframes progress-bar-stripes {
