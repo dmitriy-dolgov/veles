@@ -34,5 +34,27 @@
 </div>
 
 <?php include('inc/footer.inc') ?>
+<script>
+    var elems = {
+        '.faq-wrap': $('.faq-wrap'),
+        '.faq-unwrap': $('.faq-unwrap'),
+        '.faq .r-heading .icon': $('.faq .r-heading .icon')
+    };
+
+    function faqUnwrap() {
+        elems['.faq-wrap'].toggleClass('unwrap');
+        setTimeout(function () {
+            if (elems['.faq-wrap'].hasClass('unwrap')) {
+                elems['.faq .r-heading .icon'].removeClass('icon-circle-down');
+                elems['.faq .r-heading .icon'].addClass('icon-circle-up');
+                elems['.faq-unwrap'].attr('title', 'Свернуть');
+            } else {
+                elems['.faq .r-heading .icon'].removeClass('icon-circle-up');
+                elems['.faq .r-heading .icon'].addClass('icon-circle-down');
+                elems['.faq-unwrap'].attr('title', 'Развернуть');
+            }
+        }, 400);
+    }
+</script>
 </body>
 </html>
