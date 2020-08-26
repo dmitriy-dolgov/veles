@@ -18,6 +18,10 @@ body, html {
     /*font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;*/
 }
 
+a:hover, a:focus {
+    box-shadow: none;
+}
+
 #wrapper {
     background-color: #2d2d2d;
     /*min-height: 100%;*/
@@ -345,6 +349,23 @@ h1 {
     vertical-align: center;
     padding: 5px 0;
     font-size: 16px;
+    color: white;
+}
+
+.order-btn {
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+.order-btn.disabled {
+    color: #3e3e3e;
+}
+
+.order-btn.disabled:hover {
+    color: #3e3e3e;
 }
 
 .join-info.right .tb-capt {

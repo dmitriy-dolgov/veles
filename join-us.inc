@@ -30,7 +30,7 @@
                         </tr>
                         <tr>
                             <td class="tb-order">
-                                <a href="#">ЗАКАЗАТЬ</a>
+                                <a class="order-btn" href="#">ЗАКАЗАТЬ</a>
                             </td>
                         </tr>
                     </table>
@@ -58,7 +58,7 @@
                         </tr>
                         <tr>
                             <td class="tb-order">
-                                Пока не доступно
+                                <a class="order-btn disabled" onclick="return false;">Пока не доступно</a>
                             </td>
                         </tr>
                     </table>
